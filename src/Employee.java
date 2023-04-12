@@ -1,32 +1,41 @@
-public class  Employee{
+package HW13;
+    public abstract class  Employee{
 
 
-/*    Задача №1
-    Необходимо создать класс Employee со следующими методами:
-            ●	getBaseSalary - получить базовую ставку
-●	setBaseSalary
-●	getName - получить имя
-●	setName
-●	getSalary - получить зарплату (должен быть абстрактный)*/
+        /*    Задача №1
+            Необходимо создать класс Employee со следующими методами:
+                    ●	getBaseSalary - получить базовую ставку
+        ●	setBaseSalary
+        ●	getName - получить имя
+        ●	setName
+        ●	getSalary - получить зарплату (должен быть абстрактный)*/
+        private String name;
+        private int baseSalary;
 
-        int salary;
-        int name;
-        int baseSalary;
 
-public void setSalary(int salary){
-        this.salary=salary;
+        public Employee(String name, int baseSalary) {
+            this.name = name;
+            this.baseSalary = baseSalary;
         }
 
-public void setName(int name){
-        this.name=name;
+        public int getBaseSalary() {
+            return baseSalary;
         }
 
-public abstract int getSalary(){
-        return salary;
+        public void setBaseSalary(int baseSalary) {
+            this.baseSalary = baseSalary;
         }
 
-public int getName(){
-        return name;
+        public String getName() {
+            return name;
         }
+
+        public void setName(String name) {
+            this.name = name;
         }
-        }
+        public abstract int getSalary();
+    }
+
+
+
+}
