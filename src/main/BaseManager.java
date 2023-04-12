@@ -1,7 +1,7 @@
-package HW13;
+package HW13.main;
 
 
-public abstract class BaseManager extends HW13.Employee {
+public abstract class BaseManager extends Employee {
 
     /*Необходимо создать класс Manager в который нужно добавить следующие методы:
             ●	getNumberOfSubordinates - получить количество подчиненных
@@ -9,7 +9,7 @@ public abstract class BaseManager extends HW13.Employee {
             в классе, метод getSalary будет возвращать значение по формуле - <базовая ставка> * (<количество подчиненных>
              / 100 * 3). Если количество подчиненных 0, то результат как у обычного рабочего.*/
     private int numberOfSubordinates;
-    public BaseManager(String name. int baseSalary, int numberOfSubordinates){
+    public BaseManager(String name, int baseSalary, int numberOfSubordinates){
         super(name, baseSalary);
     }
 

@@ -1,4 +1,4 @@
-package HW13;
+package HW13.main;
     public abstract class  Employee{
 
 
@@ -36,6 +36,3 @@ package HW13;
         public abstract int getSalary();
     }
 
-
-
-}

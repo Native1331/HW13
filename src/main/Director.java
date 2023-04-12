@@ -1,4 +1,6 @@
-public  class  Director extends HW13.BaseManager {
+package HW13.main;
+
+public  class  Director extends BaseManager {
     /* Необходимо создать класс Director с теми же методами, что и Manager, но метод getSalary должен возвращать
     результат по формуле - <базовая ставка> * (<количество подчиненных> / 100 * 9). Если количество подчиненных 0,
     то результат как у обычного рабочего.

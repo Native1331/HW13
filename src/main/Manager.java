@@ -1,4 +1,6 @@
-public final class Manager extends HW13.BaseManager {
+package HW13.main;
+
+public final class Manager extends BaseManager {
 
     public  static final int SALARY_COEFFICIENT = 3;
 

@@ -1,4 +1,6 @@
-public abstract class Worker extends Employee {
+package HW13.main;
+
+public class Worker extends Employee {
     // Необходимо создать класс Worker где метод getSalary будет возвращать базовую ставку и должен быть финальным.
 
     public Worker(String name, int baseSalary) {
